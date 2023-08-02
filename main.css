@@ -200,6 +200,17 @@ body {
   font-size: 0.9em;
   color: var(--gray-light);
 }
+.card-title-5{
+  color: var(--light-blue);
+  font-family: Next bold;
+  font-size: 1.5em;
+}
+.num{
+  color: var(--pruple-dark);
+  font-size: 2em;
+  font-family: Next bold;
+
+}
 .c-btn-2 button{
   border: 2px solid var(--pruple-light);
   background-color: #34394600;
@@ -235,15 +246,25 @@ body {
 }
 .card-c-4{
   display: flex;
+  gap: 1em;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-    height: 60vh;
+  text-align: center;
+    height: 70vh;
     width: 15vw;
     background-color: var(--white);
-    padding: 5%;
+    padding: 10% 5%;
     border-radius: 10px;
     box-shadow: 0px 0px 15px #98a2b349;
+}
+.c-btn-3 button{
+  padding: 1em 3em;
+  background-color: var(--pruple-blue);
+  border: none;
+  border-radius: 3em;
+  font-family: Next medium;
+  color: var(--white);
 }
 .right-side{
     display: flex;
@@ -258,8 +279,8 @@ div .card-c-5{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 30%;
-    background-color: var(--gray);
+    width: 50%;
+    background-color: var(--bg);
     padding: 5%;
 
 }
@@ -316,8 +337,25 @@ div .card-c-5{
   justify-content: space-between;
   gap: 2em;
 }
-footer{
+.footer{
   color: var(--white);
+  display: flex;
+  flex-direction: row;
+  background-color: var(--pruple-blue);
+  justify-content: space-around;
+  align-items: center;
+  gap: 2em;
+  padding: 2%
+
+}
+.last{
+  color: var(--white);
+  display: flex;
+  flex-direction: row;
+  background-color: var(--pruple-blue);
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%
 }
 .subs-btn button{
   width: 12vw;
