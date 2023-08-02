@@ -1,4 +1,5 @@
 * {
+    direction: rtl;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -41,7 +42,7 @@ body {
 }
 .navbar {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   background-color: #34394600;
   justify-content: flex-start;
   gap: 30px;
@@ -53,7 +54,7 @@ body {
 }
 .nav-items ul {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   gap: 20px;
 }
 .continer {
@@ -92,7 +93,7 @@ body {
   padding: 10%;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: 5em;
 }
 .title-head-2 {
@@ -115,25 +116,25 @@ body {
 .caleander,
 .caleander-2 {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-between;
   gap: 0.5em;
 }
 .card-head {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: 10px;
   font-size: 1.3em;
 }
 .loc-cal {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row-;
   gap: 1em;
 }
 .time-deltil {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   width: 100%;
   justify-content: space-between;
 }
@@ -180,4 +181,43 @@ body {
     background-color: var(--white);
     padding: 5%;
     border-radius: 10px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50vw;
+}
+img{
+    border-radius: 0.5em;
+}
+div .card-c-5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    background-color: var(--gray);
+    padding: 5%;
+
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.news-colmn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+}
+.left-right{
+    display: flex;
+    flex-direction: row-;
+}
+.news-item .news-ban{
+    margin: 4em 0;
+}
+.btn-news{
+    padding: 10%;
 }
